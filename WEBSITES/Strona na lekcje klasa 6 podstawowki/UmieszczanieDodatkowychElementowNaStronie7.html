@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Dodatkowe elementy</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="HTML Klasa 7"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="other/fontello-b22586ac/fontello-b22586ac/css/fontello.css"/>
+        <script type="text/javascript" src="timer.js"></script>
+        <link rel="icon" href="pictures/icon.ico" sizes="16x16" type="image/ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+        <style>
+            #subjectmenu7 {
+                background-color: #404040;
+                width: auto;
+                padding: 10px;
+                text-align: center;
+                color: #000000;
+                font-size: 22px;
+                font-weight: 900;
+            }
+            #subjectmenu7:hover {
+                background-color: #404040;
+                cursor: pointer;
+                border: 0px dotted #ffffff;
+            }
+            #box {
+                height: 586px;
+            }
+            div.box {
+                height: 686px;
+                position: relative;
+            }  
+            div.box p {
+                margin: 0;
+                position: absolute;               
+                top: 50%;                         
+                transform: translate(0, -50%); 
+            }   
+        </style>
+    </head>
+
+    <body onload="odliczanie();">
+            <div id="logo">
+                <div id="head1" oncontextmenu="return false" onselectstart="return false" onselect="return false" oncopy="return false" ondragstart="return false" ondrag="return false"><a href="index.html">STRONY WWW</a></div>
+                <div id="head2" oncontextmenu="return false" onselectstart="return false" onselect="return false" oncopy="return false" ondragstart="return false" ondrag="return false"></div>
+            </div>
+        <div id="container" oncontextmenu="return false" onselectstart="return false" onselect="return false" oncopy="return false" ondragstart="return false" ondrag="return false">
+            <div id="submenu">
+                <div id="text1">Dodatkowe elementy</div>
+            </div>
+            <div id="nav">
+                <a href="CzymJestStronaInternetowa.html"><div id="subjectmenu1">Czym jest strona internetowa</div></a>
+                <a href="ZnacznikiJezykaHtml.html"><div id="subjectmenu2">Znaczniki języka HTML</div></a>
+                <a href="Tworzenieprostejstronyinternetowej.html"><div id="subjectmenu3">Tworzenie prostej strony</div></a>
+                <a href="formatowanietekstunastronie.html"><div id="subjectmenu4">Formatowanie tekstu na stronie</div></a>
+                <a href="planpracynadstrona.html"><div id="subjectmenu5">Plan pracy nad stroną internetową</div></a>
+                <a href="tworzeniepodstawowejstrukturystrony.html"><div id="subjectmenu6">Tworzenie podstawowej struktury strony</div></a>
+                <div id="subjectmenu7">Umieszczanie dodatkowych elementów na stronie</div>
+                <a href="dodawaniehiperlaczy.html"><div id="subjectmenu8">Dodawanie do strony hiperłączy</div></a>
+            </div>
+            <div id="box">
+                <h3><p>Na przykład gdy wprowadzimy w dokumencie HTML znacznik <span>&lt;img</span><span style="color: #ED656C;"> src</span>="<span style="color: #C962A7;">rysunek.jpg</span>"<span>></span>, na stronie WWW wyświetli się rysunek zapisany w pliku <i>rysunek.jpg</i> (pod warunkiem, że jest w tym samym folderze co plik HTML). Rysunek pojawi się w miejscu, w którym umieściliśmy znacznik. Jeśli chcemy umieścic rysunek pod tekstem, trzeba pamiętać o znaczeniu <span>&lt;br&gt;</span>.</p></h3>
+                <br>
+                <br>
+                <h3><span style="color: rgb(0, 76, 78);">Ćwiczenie 6.</span>
+                <br>
+                <span style="color: rgb(1, 130, 134)">Wstawiamy zdjęcie na stronę</span>
+                <br>
+                <span style="color: rgb(0, 76, 78);">1.</span> Wybierz zdjęcie ze swoich zbiorów i wstaw je na stronę. Umieść je po prawej stronie tekstu.
+                <br>
+                <span style="color: rgb(0, 76, 78);">2.</span> Zapisz plik ze stroną WWW pod tą samą nazwą i obejrzyj stronę w przeglądarce.
+                <br>
+                <span style="color: rgb(0, 76, 78);">Wskazówka:</span> 
+                <br>
+                Aby umieścić zdjęcie po prawej stronie tekstu, należy do znacznika <span>&lt;img&gt;</span> dodać atrybut <span style="color: #ED656C;">align</span> z wartością <span style="color: #C962A7;">right</span>, a zapis:
+                <br>
+                <span>&lt;img</span><span style="color: #ED656C;">src</span>="<span style="color: #C962A7;">Francja-Paryz-Wieza.jpg</span>"<span style="color: #ED656C;">align</span>="<span style="color: #C962A7;">right</span>"<span>></span>
+                <br>
+                umieścić w kodzie HTML przed danym tekstem.
+            </h3></div>
+            <div id="strona">
+                <a href="UmieszczanieDodatkowychElementowNaStronie6.html"><div id="lefticon"><i class="icon-left"></i></div></a>
+                <a href="UmieszczanieDodatkowychElementowNaStronie8.html"><div id="righticon"><i class="icon-right"></i></div></a>
+            </div>
+        </div>
+        <div id="footer">Jakub Korczak 2021 &copy;</div>
+        <scirpt src="jQuery.js"></scirpt>
+    </body>
+</html>

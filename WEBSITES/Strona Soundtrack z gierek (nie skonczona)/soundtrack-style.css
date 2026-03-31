@@ -1,0 +1,176 @@
+body,html{
+    min-height: calc(100vh - 70px);
+}
+#title{
+    width:100vw;
+    height:auto;
+    font-family:'Patrick Hand', cursive;
+    font-size:3vw;
+    float:left;
+    color:#ddd;
+    text-align:center;
+    margin-top:2vw;
+}
+#vid_container{
+    width:100vw;
+    height:31vw;
+    float:left;
+}
+#video{
+    width:48vw;
+    height:27vw;
+    float:left;
+    margin-left:5vw;
+    margin-top:3vw;
+    padding:0.5vw;
+    background:rgb(27, 27, 27);
+    border-radius:1vw;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+#lyrics{
+    width:35vw;
+    height:auto;
+    padding:0.5vw;
+    background:rgb(27, 27, 27);
+    float:left;
+    margin-left:5vw;
+    margin-top:3vw;
+    border-radius:0.5vw;
+    color:#fff;
+    font-size:0.9vw;
+    font-family:'Noto Sans', sans-serif;
+}
+#no_lyrics{
+    width:35vw;
+    height:auto;
+    padding:0.5vw;
+    background:rgb(27, 27, 27);
+    float:left;
+    margin-left:5vw;
+    margin-top:3vw;
+    border-radius:0.5vw;
+    color:#fff;
+    font-size:1.8vw;
+    text-align:center;
+    font-family:'Noto Sans', sans-serif;
+}
+#blank{
+    width:35vw;
+    height:23.6vw;
+    float:left;
+    margin-left:5vw;
+    padding:0.5vw;
+}
+#other_text{
+    width:15vw;
+    height:1.5vw;
+    float:left;
+    margin-left:21vw;
+    margin-top:1vw;
+    font-size:1.4vw;
+    text-align:center;
+    font-family:'Noto Sans', sans-serif;
+    color:#ddd;
+}
+.icons{
+    width:3vw;
+    height:3vw;
+    float:left;
+    margin-top:3.5vw;
+    margin-left:12.4vw;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+#icon_container{
+    width:100vw;
+    height:auto;
+    float:left;
+}
+@media only screen and (max-width:1200px){
+    #title{
+        width:100vw;
+        height:auto;
+        font-family:'Patrick Hand', cursive;
+        font-size:4vw;
+        float:left;
+        color:#ddd;
+        text-align:center;
+        margin-top:2vw;
+    }
+    #vid_container{
+        width:100vw;
+        height:31vw;
+        float:left;
+    }
+    #video{
+        width:80vw;
+        height:45vw;
+        float:left;
+        margin-left:8vw;
+        margin-top:3vw;
+        padding:1vw;
+        background:rgb(27, 27, 27);
+        border-radius:2vw;
+    }
+    #lyrics{
+        width:35vw;
+        height:auto;
+        padding:0.5vw;
+        background:rgb(27, 27, 27);
+        float:left;
+        margin-left:5vw;
+        margin-top:3vw;
+        border-radius:0.5vw;
+        color:#fff;
+        font-size:0.9vw;
+        font-family:'Noto Sans', sans-serif;
+    }
+    #no_lyrics{
+        width:80vw;
+        height:auto;
+        padding:1vw;
+        background:rgb(27, 27, 27);
+        float:left;
+        margin-left:8vw;
+        margin-top:3vw;
+        border-radius:1vw;
+        color:#fff;
+        font-size:4vw;
+        text-align:center;
+        font-family:'Noto Sans', sans-serif;
+    }
+    #blank{
+        display:none;
+    }
+    #other_text{
+        width:100vw;
+        height:1.5vw;
+        float:left;
+        margin-left:0vw;
+        margin-top:1vw;
+        font-size:4vw;
+        text-align:center;
+        font-family:'Noto Sans', sans-serif;
+        color:#ddd;
+    }
+    .icons{
+        width:6vw;
+        height:6vw;
+        float:left;
+        margin-top:3vw;
+        margin-left:20.3vw;
+    }
+    #icon_container{
+        margin-top:35vw;
+        width:100vw;
+        height:10vw;
+        float:left;
+    }
+}

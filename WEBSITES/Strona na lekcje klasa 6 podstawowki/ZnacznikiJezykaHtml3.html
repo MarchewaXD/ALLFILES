@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Znaczniki HTML</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="HTML Klasa 7"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="other/fontello-b22586ac/fontello-b22586ac/css/fontello.css"/>
+        <script type="text/javascript" src="timer.js"></script>
+        <link rel="icon" href="pictures/icon.ico" sizes="16x16" type="image/ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+        <style>
+            #box {
+                height: 586px;
+            }
+            div.box {
+                height: 686px;
+                position: relative;
+            }  
+            div.box p {
+                margin: 0;
+                position: absolute;               
+                top: 50%;                         
+                transform: translate(0, -50%); 
+            }   
+            #box span {
+                color: #68BFE6;
+            }
+            #subjectmenu2 {
+                background-color: #404040;
+                width: auto;
+                padding: 10px;
+                text-align: center;
+                color: #000000;
+                font-size: 22px;
+                font-weight: 900;
+            }
+            #subjectmenu2:hover {
+                background-color: #404040;
+                cursor: pointer;
+                border: 0px dotted #ffffff;
+            }
+            #righticon {
+                 color: #9e9e9e;
+            }
+            #righticon:hover {
+                 color: #9e9e9e;
+            }
+        </style>
+    </head>
+
+    <body onload="odliczanie();">
+            <div id="logo">
+                <div id="head1" oncontextmenu="return false" onselectstart="return false" onselect="return false" oncopy="return false" ondragstart="return false" ondrag="return false"><a href="index.html">STRONY WWW</a></div>
+                <div id="head2" oncontextmenu="return false" onselectstart="return false" onselect="return false" oncopy="return false" ondragstart="return false" ondrag="return false"></div>
+            </div>
+        <div id="container" oncontextmenu="return false" onselectstart="return false" onselect="return false" oncopy="return false" ondragstart="return false" ondrag="return false">
+            <div id="submenu">
+                <div id="text1">Znaczniki HTML</div>
+            </div>
+            <div id="nav">
+                <a href="CzymJestStronaInternetowa.html"><div id="subjectmenu1">Czym jest strona internetowa</div></a>
+                <div id="subjectmenu2">Znaczniki języka HTML</div>
+                <a href="Tworzenieprostejstronyinternetowej.html"><div id="subjectmenu3">Tworzenie prostej strony </div></a>
+                <a href="formatowanietekstunastronie.html"><div id="subjectmenu4">Formatowanie tekstu na stronie</div></a>
+                <a href="planpracynadstrona.html"><div id="subjectmenu5">Plan pracy nad stroną internetową</div></a>
+                <a href="tworzeniepodstawowejstrukturystrony.html"><div id="subjectmenu6">Tworzenie podstawowej struktury strony</div></a>
+                <a href="umieszczaniedodatkowychelementownastronie.html"><div id="subjectmenu7">Umieszczanie dodatkowych elementów na stronie</div></a>
+                <a href="dodawaniehiperlaczy.html"><div id="subjectmenu8">Dodawanie do strony hiperłączy</div></a>
+            </div>
+            <div id="box">
+                <h3><p>Opis całej strony zawieramy między znacznikami <span>&lt;html&gt;</span> i <span>&lt;/html&gt;</span> - ten znacznik powinien zawsze wystąpić. Nagłówek strony służy do opisu zawartości strony dla użytkownika i wyszukiwarek internetowych. Wyznaczają go znaczniki <span>&lt;head&gt;</span> i <span>&lt;/head&gt;</span>,a w nim - między znacznikami <span>&lt;title&gt;</span> i <span>&lt;/title&gt;</span> - umieszczamy tytuł strony, który pojawia się na pasku tytułowym okna przeglądarki. Zawartość strony (teksty, rysunki) umieszczamy między znacznikami <span>&lt;body&gt;</span> i <span>&lt;/body&gt;</span></p>
+                <p>Ułożenie znaczników w podstawowej strukturze strony:</p>
+                    <span>&lt;html&gt;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- początek struktury <br>
+                    &nbsp; &nbsp;<span>&lt;head&gt;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- początek nagłówka<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp;<span>&lt;title&gt;</span> <i>tytuł strony </i><span>&lt;/title&gt;</span> &nbsp; - tytuł strony<br>
+                    &nbsp; &nbsp; <span>&lt;/head&gt;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- koniec nagłówka<br>
+                    &nbsp; &nbsp; <span>&lt;body&gt;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - początek zawartości strony<br>
+                    &nbsp; &nbsp; <i>zawartość strony</i><br>
+                    &nbsp; &nbsp; <span>&lt;/body&gt;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- koniec zawartości strony<br>
+                    <span> &lt;/html&gt;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - koniec struktury
+                </h3>
+            </div>
+            <div id="strona">
+                <a href="ZnacznikiJezykaHtml2.html"><div id="lefticon"><i class="icon-left"></i></div></a>
+                <div id="righticon"><i class="icon-right"></i></div>
+            </div>
+        </div>
+        <div id="footer">Jakub Korczak 2021 &copy;</div>
+        <scirpt src="jQuery.js"></scirpt>
+    </body>
+</html>

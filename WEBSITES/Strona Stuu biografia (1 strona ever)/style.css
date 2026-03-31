@@ -1,0 +1,197 @@
+body
+{
+	background-color: #000000;
+    color: #ffffff;
+	font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000000;
+}
+
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+}
+
+.square
+{
+   width: 50%;
+   float: left;   
+}
+
+#logo
+{
+	float: left;
+	font-size: 70px;
+	width: 600px;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.tile1
+{
+	margin: 10px;
+	width: 480px;
+	height: 304px;
+	background-color: #3095d3;
+	float: left;
+	text-align: center;
+}
+
+.tile1:hover
+{
+	background-color: #00b2b2;
+}
+
+.tile4
+{
+	margin: 10px;
+	width: 460px;
+	height: 122px;
+	background-color: #ee5232;
+    text-align: center;
+	padding: 10px;
+}
+
+.tile4:hover
+{
+	background-color: #e9967b
+}
+
+.tile5
+{
+	margin: 10px;
+	width: 480px;
+	height: 304px;
+	background-color: #3095d3;
+	text-align: center;
+}
+
+.tile5:hover
+{
+	background-color: #00b2b2;
+}
+
+.yt
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	float: left;
+	background-color: #d94348;
+	text-align: center;
+}
+
+.yt:hover
+{
+	background-color: #c83237
+}
+
+.fb
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	float: left;
+	background-color: #4668b3;
+}
+
+.fb:hover
+{
+	background-color: #3557a2
+}
+
+.tw
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	float: left;
+	background-color: #3095d3;
+}
+
+.tw:hover
+{
+	background-color: #2084c2
+}
+
+.instagram
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	float: left;
+	background-color: #b803ff;
+}
+
+.instagram:hover
+{
+	background-color: #9966cc
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 480px;
+	height: 304px;
+}
+
+a.tilelinkyt
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	height: 142px;
+}
+
+a.tilelinklogo
+{
+	color: #ffffff;
+	text-decoration: none;
+	width: auto;
+	height: auto;
+}
+
+#square2
+{
+	width: 100%;
+	float: left;
+	padding: 10px;
+	margin-left: auto;
+	text-aling: justify;
+}
+
+#tytul
+{
+	text-align: left;
+	padding: 10px;
+	margin-left: auto;
+	color: #ffffff;
+}
+
+#content
+{
+	text-align: left;
+	padding: 100px;
+	color: #ffffff;
+}
+
+a.nazwakanalu
+{
+	color: #ffffff;
+	text-decoration: none;
+	width: auto;
+	height: auto;
+}

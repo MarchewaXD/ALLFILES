@@ -1,0 +1,4 @@
+
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-laptop:before { content: '\e801'; } /* '' */
+.icon-users:before { content: '\e802'; } /* '' */

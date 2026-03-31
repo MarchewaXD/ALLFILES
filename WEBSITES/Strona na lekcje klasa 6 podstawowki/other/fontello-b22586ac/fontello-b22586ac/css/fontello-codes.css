@@ -1,0 +1,4 @@
+
+.icon-right:before { content: '\e800'; } /* '' */
+.icon-left:before { content: '\e801'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */

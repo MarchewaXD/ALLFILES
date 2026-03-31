@@ -1,0 +1,66 @@
+body
+{
+	background-color: #000000;
+    color: #ffffff;
+	font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000000;
+}
+
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+}
+
+#logo
+{
+	float: left;
+	font-size: 70px;
+	width: 600px;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.square
+{
+   width: 50%;
+   float: left;   
+}
+
+.tile1
+{
+	margin: 10px;
+	width: 480px;
+	height: 304px;
+	background-color: #3095d3;
+	float: left;
+	text-align: center;
+}
+
+.tile1:hover
+{
+	background-color: #00b2b2;
+}
+
+.menu
+{
+	background-color: #000000;
+	margin: 10px;
+	text-align: left;
+	
+a.link
+{
+	text-decoration: none;
+	color: #
+}
+

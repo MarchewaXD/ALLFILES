@@ -1,0 +1,39 @@
+@media only screen and (max-width:600px){
+    #nav{
+        height:28vw;
+        padding:0;
+        width:100vw;
+        padding-bottom:2vw;
+    }
+    #name{
+        width:100vw;
+        height:auto;
+        float:left;
+        padding-top:5vw;
+        padding-bottom:3vw;
+        font-size:12vw;
+    }
+    #menu-buttons{
+        width:100vw;
+        height:0vw;
+        float:left;
+        border:none;
+    }
+    .buttons{
+        width:40vw;
+        height:6vw;
+        float:left;
+        margin-left:6.4vw;
+        margin-bottom:2vw;
+        color:#fff;
+        font-size:4vw;
+        text-align:center;
+        border-radius:1vw;
+        border:1px solid #000;
+        background-color:rgb(46, 46, 46);
+        font-family:'Noto Sans', sans-serif;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+}

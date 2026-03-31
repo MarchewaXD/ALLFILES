@@ -1,0 +1,87 @@
+/* Hover for Omori OST 023 */
+.hovertextOST23{
+    position:relative;
+}
+  
+.hovertextOST23:before{
+    content:attr(data-hover);
+    visibility:hidden;
+    opacity:0;
+    width:22vw;
+    background-color:rgba(94, 94, 94, 0.466);
+    color:#fff;
+    text-align:center;
+    border-radius:0.5vw;
+    padding:0.1vw 0;
+    transition:opacity 1s ease-in-out;
+    position:absolute;
+    z-index:1;
+    left:0;
+    top:110%;
+    border:1px solid rgba(12, 12, 12, 0.712);
+    margin-left:0.4vw;
+}
+  
+.hovertextOST23:hover:before{
+    opacity:1;
+    visibility:visible;
+    font-size:1vw;
+}
+
+/* Hover for Omori OST OST 029*/
+.hovertextOST29{
+    position:relative;
+}
+  
+.hovertextOST29:before{
+    content:attr(data-hover);
+    visibility:hidden;
+    opacity:0;
+    width:21.2vw;
+    background-color:rgba(94, 94, 94, 0.466);
+    color:#fff;
+    text-align:center;
+    border-radius:0.5vw;
+    padding:0.1vw 0;
+    transition:opacity 1s ease-in-out;
+    position:absolute;
+    z-index:1;
+    left:0;
+    top:110%;
+    border:1px solid rgba(12, 12, 12, 0.712);
+}
+  
+.hovertextOST29:hover:before{
+    opacity:1;
+    visibility:visible;
+    font-size:1vw;
+}
+/* Hover for Omori OST 030 */
+.hovertextOST30{
+    position:relative;
+}
+  
+.hovertextOST30:before{
+    content:attr(data-hover);
+    visibility:hidden;
+    opacity:0;
+    width:21.2vw;
+    background-color:rgba(94, 94, 94, 0.466);
+    color:#fff;
+    text-align:center;
+    border-radius:0.5vw;
+    padding:0.1vw 0;
+    transition:opacity 1s ease-in-out;
+    position:absolute;
+    z-index:1;
+    left:0;
+    top:110%;
+    border:1px solid rgba(12, 12, 12, 0.712);
+    margin-left:1.4vw;
+}
+  
+.hovertextOST30:hover:before{
+    opacity:1;
+    visibility:visible;
+    font-size:1vw;
+}

@@ -1,0 +1,314 @@
+/* Background patterns from Toptal Subtle Patterns */
+
+body {
+    background-image: url("pictures/background.png");
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 !important;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#container {
+    margin-top: 20px;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+#logo {
+    width: 100%;
+    background-image: url(pictures/logobackground.png);
+    height: 71px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#head1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    margin-left: auto;
+    width: 470px;
+    height: auto;
+    float: left;
+    user-select: none;
+    font-weight: 900;
+    text-align: right;
+    line-height: 75px;
+}
+#head2 {
+    color: #ffffff;
+    width: 465px;
+    height: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lato' sans-serif; 
+    float: right;
+    letter-spacing: 3px;
+    line-height: 45px;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    user-select: none;
+    font-weight: 900;
+    margin-right: auto;
+}
+#submenu {
+    width: 1000px;
+    height: 154px;
+    background-image: url(pictures/green_dust_scratch.png);
+    margin-top: 20px;
+}
+#text1 {
+    font-size: 60px;
+    text-align: center;
+    float: left;
+    width: 1000px;
+    height: 154px;
+    line-height: 144px;
+    font-family: 'Lato' sans-serif;
+    font-weight: 900;
+    letter-spacing: 6px;
+    cursor: default;
+}
+#nav {
+    width: 256px !important;
+    height: auto;
+    min-height: 706px;
+    background-color: #c9c9c9;
+    padding: 5px;
+    padding-right: 6px;
+    margin-top: 20px;
+    float: left;
+    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+#subjectmenu1 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+}
+#subjectmenu1:hover {
+    background-color: #404040;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+#subjectmenu2 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+}
+#subjectmenu2:hover {
+    background-color: #404040;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+#subjectmenu3 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+}
+#subjectmenu3:hover {
+    background-color: #404040;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+#subjectmenu4 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+}
+#subjectmenu4:hover {
+    background-color: #404040;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+#subjectmenu5 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+}
+#subjectmenu5:hover {
+    background-color: #404040;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+#subjectmenu6 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+}
+#subjectmenu6:hover {
+    background-color: #404040;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+#subjectmenu7 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+}
+#subjectmenu7:hover {
+    background-color: #404040;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+#subjectmenu8 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+}
+#subjectmenu8:hover {
+    background-color: #404040;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+.menu2 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 21px;
+}
+.menu2:hover {
+    background-color: #696868;
+    cursor: pointer;
+}
+#box {
+    text-align: justify;
+    width: 692px;
+    height: auto;
+    min-height: 626px;
+    padding: 15px;
+    padding-right: 20px;
+    margin: left;
+    border-left: 2px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    float: left;
+    margin-top: 20px;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 0px solid #000000;
+    font-weight: 0;
+    font-family: 'Lato', sans-serif;
+}
+#box h3 {
+    font-size: 23px;
+}
+#box span{
+    color: #68BFE6;
+}
+#strona {
+    width: 707px;
+    height: 38px;
+    padding: 10px;
+    float: right;
+    background-color: #e2e2e2;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
+}
+#lefticon {
+    width: 38px;
+    height: 38px;
+    float: left;
+    margin-left: 34%;
+    line-height: 38px;
+    color: #000;
+    text-align: center;
+}
+#lefticon:hover {
+    color: #404040;
+}
+#righticon {
+    width: 38px;
+    height: 38px;
+    float: left;
+    margin-left: 21%;
+    line-height: 38px;
+    color: #000;
+    text-align: center;
+}
+#righticon:hover {
+    color: #404040;
+}
+#footer {
+    width: 100%;
+    height: auto;
+    min-height: 75px;
+    font-size: 25px;
+    color: #ffffff;
+    clear: both;
+    background-color: #000000;
+    text-align: center;
+    line-height: 75px;
+    cursor: default;
+}
+#zielona-ramka {
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border: 3px solid rgb(93, 187, 0);
+    margin: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p {
+    text-indent: 20px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: linear-gradient(left, #212121, #323232);
+    box-shadow: 0 0 1px 1px #111;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(left, #4A4A4A, #404040);
+    box-shadow: inset 0 0 1px 1px #191919;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(left, #555555, #4e4e4e);
+}

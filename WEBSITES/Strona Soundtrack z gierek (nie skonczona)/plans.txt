@@ -1,0 +1,5 @@
+NAV:
+Games (for example: omori)
+Artists (for example: ncs release)
+hover slightly darker
+_blank

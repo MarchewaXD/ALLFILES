@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    background:#0f0f0f;
+}
+#logo{
+    background:#313131;
+    padding:1%;
+    width:98vw;
+    height:5.3vw;
+    border-bottom:1px solid #000000;
+}
+#logotext{
+    font-family:'Mochiy Pop P One', sans-serif;
+    width:29vw;
+    height:auto;
+    color:rgb(230, 230, 230);
+    font-size:3.4vw;
+    padding-left:3.5vw;
+    float:left;
+}
+#logoquote{
+    font-family:'Dongle', sans-serif;
+    width:45vw;
+    height:auto;
+    color:rgb(204, 204, 204);
+    font-size:3.5vw;
+    line-height:6.5vw;
+    padding-right:1.5vw;
+    float:left;
+    margin-left:12vw;
+}
+
+#container{
+    width:100vw;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+}
+#nav{
+    width:98.5%;
+    height:auto;
+    margin-left:0.25vw;
+    padding:0.5vw;
+    background:rgb(39, 39, 39);
+    color:rgb(201, 201, 201);
+    font-size:1.7vw;
+    text-align:center;
+    float:left;
+    border-radius:0.5vw;
+}
+#games{
+    float:left;
+    margin-left:0.6vw;
+    width:49%;
+    border-radius:0.5vw;
+    background:rgb(39, 39, 39); 
+}
+#games:hover{
+    background:rgb(52, 52, 52);
+    cursor:pointer;
+}
+#line{
+    width:0.5vw;
+    height:2vw;
+    color:#000;
+    line-height:1.75vw;
+    float:left;
+}
+#artists{
+    width:49%;
+    float:left;
+    border-radius:0.5vw;
+    background:rgb(39, 39, 39); 
+}
+#artists:hover{
+    background:rgb(52, 52, 52);
+    cursor:pointer;
+}
+#searchbar{
+    background:#474747;
+    width:80%;
+    height:auto;
+    font-size:20px;
+    padding:1%;
+    border-radius:1.5vw;
+    margin-left:9%;
+    float:left;
+    margin-top:0.27vw;
+
+}
+a{
+    text-decoration:none;
+    color:#ccc;
+}
