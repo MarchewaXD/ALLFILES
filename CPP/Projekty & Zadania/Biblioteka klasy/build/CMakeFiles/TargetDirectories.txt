@@ -1,0 +1,3 @@
+C:/projekty/CPP/Projekty & Zadania/Biblioteka klasy/build/CMakeFiles/biblioteka.dir
+C:/projekty/CPP/Projekty & Zadania/Biblioteka klasy/build/CMakeFiles/ALL_BUILD.dir
+C:/projekty/CPP/Projekty & Zadania/Biblioteka klasy/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\projekty\CPP\Projekty &amp; Zadania\Biblioteka klasy\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projekty\CPP\Projekty &amp; Zadania\Biblioteka klasy\klasy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\projekty\CPP\Projekty &amp; Zadania\Biblioteka klasy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1A8345E-77A5-37F5-A72C-3EB780884A60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
