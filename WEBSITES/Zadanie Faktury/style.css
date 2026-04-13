@@ -1,0 +1,252 @@
+/* glowny wyglad + zaloguj.php */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Rubik, Arial;
+    color: #E6F2EF;
+}
+
+header {
+    background: #091413;
+    padding:0.5rem 0;
+    text-align:center;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+main {
+    flex: 1;
+    background: linear-gradient(110deg, #408A71, #add8c3);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+/* BOX */
+#info {
+    border: 2px solid #52997f;
+    border-radius: 2rem;
+    text-align: center;
+    margin-top: 5vh;
+    background-color: #142725;
+    padding: 0 1rem;
+}
+
+#info p {
+    font-size: 1.2em;
+}
+#login-panel{
+    margin-top:5vh;
+    background-color:#285A48;
+    padding:1.5rem;
+    border:2px solid #c4ebd9;
+    border-radius:3rem 1rem;
+}
+#login-panel hr{
+    border:none;
+    height:1px;
+    background-color:rgb(223, 220, 220);
+    margin:1rem 0;
+}
+#login-panel input{
+    font-size:1.2rem;
+    padding:0.5rem;
+    border:2px solid #72a58d;
+    border-radius:1rem;
+    text-align:center;
+    color:#000000;
+}
+#przycisk{
+    margin-top:2vh;
+}
+#przycisk button{
+    font-size:1.5rem;
+    padding:0.5rem 1.2rem;
+    border:2px solid #3b6d56;
+    border-radius:1rem;
+}
+#przycisk button:hover{
+    cursor:pointer;
+}
+#php{
+    margin-top:2vh;
+}
+#php p{
+    font-size:1.5rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #091413;
+    padding: 0.5rem 0;
+}
+
+/* system.php */
+#system-index{
+    flex-direction:row;
+    align-items:stretch;
+}
+nav{
+    background:linear-gradient(130deg, #3b7a5e, #14241c);
+    align-self:flex-start;
+    height:100%;
+    width:30vw;
+    border-radius:0 5vw 5vw 0;
+    overflow:hidden;
+    max-height:80vh;
+}
+@media (min-width:1000px){
+    nav{
+        width:15vw;
+        max-height:80vh;
+    }
+}
+.menu{
+    height:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    transition: background-color 0.3s ease;
+}
+.menuC{
+    height:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    transition: background-color 0.3s ease;
+    text-decoration:underline;
+}
+.menuC:hover{
+    background-color:rgba(0,0,0,0.3);
+}
+.menu h2{
+    margin:0;
+}
+.menu:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+}
+#system-opis{
+    display:flex;
+    flex-direction:column;
+    width:66vw;
+    padding-left:2vw;
+    padding-right:2vw;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+@media (min-width:1000px){
+    #system-opis{
+        width:81vw;
+    }
+}
+#system-opis h2{
+    font-size:2.5rem;
+}
+#system-opis p{
+    font-size:1.5em;
+}
+
+/* kosztowe / sprzedazowe */
+table, td, th{
+    border:2px solid black;
+    border-collapse:collapse;
+}
+#kosztowe-opis{
+    display:flex;
+    flex-direction:column;
+    width:66vw;
+    padding-left:2vw;
+    padding-right:2vw;
+    margin-top:5vw;
+    text-align:center;
+    align-items:center;
+    font-size:1rem;
+}
+@media (min-width:1000px){
+    #kosztowe-opis{
+        width:81vw;
+        font-size:1.3rem;
+    }
+    td, th{
+        padding-left:0.5vw;
+        padding-right:0.5vw;
+    }
+}
+a{
+    text-decoration:none;
+    color:#E6F2EF;
+}
+#przycisk-faktury{
+    font-size:1.5rem;
+    margin-top:5vh;
+    background-color:#72a58d;
+    border:2px solid #436857;
+    padding:1vh 2vw 1vh 2vw;
+    color:#E6F2EF;
+    border-radius:5vw;
+    transition:background-color 0.3s ease;
+}
+#przycisk-faktury:hover{
+    cursor:pointer;
+    background-color:rgba(0,0,0,0.2);
+}
+#oplacenie-faktury{
+    margin-top:5vh;
+}
+#oplacenie-faktury .btn{
+    font-size:1.2rem;
+    background-color:#72a58d;
+    border:2px solid #436857;
+    padding:1vh 2vw 1vh 2vw;
+    color:#E6F2EF;
+    border-radius:5vw;
+    transition:background-color 0.3s ease;
+    margin-bottom:3vh;
+}
+#oplacenie-faktury .btn:hover{
+    cursor:pointer;
+    background-color:rgba(0,0,0,0.2);
+}
+#oplacenie-faktury select{
+    padding:0.5rem 1rem;
+    border-radius:0.75rem;
+    border:2px solid #72a58d;
+    background-color:#142725;
+    color:#E6F2EF;
+    font-size:1rem;
+}
+/* podstrony "dodaj" */
+#kosztowe-opis label{
+    display:flex;
+    align-self:center;
+    font-size:1.5rem;
+    text-align:center;
+    justify-content:center;
+    color:#fcfbfb;
+    padding-top:1rem;
+}
+#kosztowe-opis input{
+    border:2px solid rgb(72, 112, 89);
+    padding:0.5rem;
+    border-radius:1rem;
+    font-family:arial;
+    background-color:#dce9e3;
+}
+#kosztowe-opis p{
+    font-size:1.4rem;
+    margin-top:0.5rem;
+}

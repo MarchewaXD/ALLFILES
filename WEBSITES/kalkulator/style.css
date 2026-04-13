@@ -1,0 +1,92 @@
+body, html{
+    margin:0;
+    padding:0;
+    background-color:#121212;
+    min-height:100vh;
+    min-width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial;
+    color:#fff;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    width:26rem;
+    height:35rem;
+    background-color:#E0E0E0;
+    color:white;
+    border-radius:2rem;
+    border:2px solid rgb(255, 255, 255);
+}
+#row1{
+    display:flex;
+    flex-direction:row;
+    height:6rem;
+    margin-top:1rem;
+    width:22rem;
+    justify-content:right;
+    align-items:center;
+    text-align:center;
+    border-radius:1.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color:#B0B0B0;
+    border:2px solid #121212;
+}
+h2{
+    margin:0;
+    padding:0;
+    font-size:4rem;
+}
+#row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:auto;
+    width:26rem;
+    margin-top:1.5rem;
+}
+button{
+    width:5rem;
+    height:5rem;
+    font-size:2.5rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    background-color:#444444;
+    border:none;
+    border-radius:2rem;
+    border:2px solid #121212;
+    transition: background-color 0.2s;
+    color:white;
+}
+button:hover{
+    background-color:rgba(0,0,0, 0.4);
+}
+.button2{
+    width:5rem;
+    height:5rem;
+    font-size:2.5rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    background-color:#888888;
+    border:none;
+    border-radius:2rem;
+    border:2px solid #121212;
+}
+.button2:hover{
+    background-color:rgba(0,0,0,0.15);
+}
+#wyczysc{
+    margin-top:3rem;
+    background-color:#c6c6c6;
+    width:15rem;
+}
+#wyczysc:hover{
+    background-color:rgba(255,255,255,0.5);
+}
